@@ -74,26 +74,12 @@ function cargarImagenes() {
     carrouselTrack.appendChild(card)
   })
 
-  imgsURL.forEach(prod => {
-    const card = document.createElement('div')
-    card.classList.add('carousel-card')
 
-    card.innerHTML = `
-          <img src="${prod.img}" alt="${prod.nombre}" loading="lazy">
-      <div class="card-info">
-        <h4>${prod.nombre}</h4>
-        <p>Altura: ${prod.altura}</p>
-        <p>Material: ${prod.material}</p>
-      </div>
-    `;
-
-    carrouselTrack.appendChild(card)
-  })
 }
 
 function iniciarCarrusel() {
   let scroll = 0;
-  const velocidad = 0.5; // px por frame (ajustá a gusto)
+  const velocidad = 0.8; // px por frame (ajustá a gusto)
 
   function mover() {
     scroll += velocidad;
