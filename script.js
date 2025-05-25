@@ -74,6 +74,7 @@ function cargarImagenes() {
     carrouselTrack.appendChild(card)
   })
 
+  carrouselTrack.innerHTML += carrouselTrack.innerHTML;
 
 }
 
