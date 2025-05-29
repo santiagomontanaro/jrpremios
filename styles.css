@@ -314,3 +314,65 @@ nav a:hover {
   width: 100%;
   height: 300px;
 }
+
+/* premios exclusivos */
+.exclusivos {
+  padding: 4rem 2rem;
+  background: #f8f5f0;
+  text-align: center;
+}
+
+.exclusivos-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.exclusivos-header p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.exclusivos-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.exclusivo-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.exclusivo-card:hover {
+  transform: scale(1.03);
+}
+
+.exclusivo-card img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+}
+
+.exclusivo-info {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.exclusivo-info h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.exclusivo-info p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}

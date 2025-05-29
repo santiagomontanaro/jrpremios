@@ -2,7 +2,7 @@ const imgsURL = [
   {
     nombre: "#1 Copa Libertadores",
     altura: "~98 cm",
-    material: "Plata esterlina con base de madera",
+    material: "Aluminio con base de madera",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005801/IMG_0212_ujsnpn.jpg",
   },
   {
@@ -14,43 +14,43 @@ const imgsURL = [
   {
     nombre: "#3 Copa Sudamericana",
     altura: "~65 cm",
-    material: "Plata, con detalles en bronce y madera en la base",
+    material: "Aluminio, con detalles en bronce y madera en la base",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005808/IMG_0183_objxqw.jpg",
   },
   {
     nombre: "#4 Copa Suruga Bank",
     altura: "~55 cm",
-    material: "Plata y base de madera lacada",
+    material: "Aluminio y base de madera lacada",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005801/IMG_0188_gprbux.jpg",
   },
   {
     nombre: "#5 Copa Diego Maradona",
     altura: "~60–65 cm",
-    material: "Acero inoxidable con baño dorado (diseño especial en honor a Maradona)",
+    material: "Aluminio (diseño especial en honor a Maradona)",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747794841/WhatsApp_Image_2025-05-16_at_14.31.25_nyvygb.jpg",
   },
   {
     nombre: "#6 Copa Conmebol",
     altura: "~60 cm",
-    material: "Plata con detalles de bronce niquelado",
+    material: "Aluminio con detalles de bronce niquelado",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005798/IMG_0180_aoa4y9.jpg",
   },
   {
     nombre: "#7 Copa Liga Profesional (LPF)",
     altura: "~72 cm",
-    material: "Acero inoxidable con detalles niquelados",
+    material: "Aluminio con detalles niquelados",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005798/IMG_0178_m2di9y.jpg",
   },
   {
     nombre: "#8 Copa Europa / UEFA Champions League",
     altura: "~73.5 cm",
-    material: "Plata pura",
+    material: "Aluminio",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005799/IMG_0186_aqp2jz.jpg",
   },
   {
     nombre: "#9 Supercopa Argentina",
     altura: "~60 cm",
-    material: "Plata, con detalles de acero inoxidable",
+    material: "Aluminio, con detalles de acero inoxidable",
     img: "https://res.cloudinary.com/dxhaqchbg/image/upload/e_background_removal/e_dropshadow:azimuth_220;elevation_60;spread_20/b_rgb:FFFFFF/f_png/v1747005801/IMG_0200_jerm1u.jpg",
   }
 ]
@@ -80,7 +80,7 @@ function cargarImagenes() {
 
 function iniciarCarrusel() {
   let scroll = 0;
-  const velocidad = 0.8; // px por frame (ajustá a gusto)
+  const velocidad = 0.7; // px por frame (ajustá a gusto)
 
   function mover() {
     scroll += velocidad;
